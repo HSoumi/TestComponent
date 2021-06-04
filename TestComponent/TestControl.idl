@@ -1,0 +1,10 @@
+// TestControl.idl
+namespace TestComponent
+{
+    runtimeclass TestControl : Microsoft.UI.Xaml.Controls.Control
+    {
+        TestControl();
+        static Microsoft.UI.Xaml.DependencyProperty LabelProperty{ get; };
+        String Label;
+    }
+}

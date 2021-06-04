@@ -1,0 +1,10 @@
+namespace TestComponent
+{
+    [default_interface]
+    runtimeclass Test
+    {
+        Test();
+    Double add(Int32 number1, Double number2);
+    }
+}
+
