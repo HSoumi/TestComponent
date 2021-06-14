@@ -10,7 +10,7 @@ namespace winrt::TestComponent::implementation
     struct Test : TestT<Test>
     {
         Test() = default;
-        double add(long int number1, double number2);
+        double add(double number1, double number2);
         
     };
 }
