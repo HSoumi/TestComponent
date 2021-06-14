@@ -4,7 +4,7 @@ namespace TestComponent
     runtimeclass Test
     {
         Test();
-    Double add(Int32 number1, Double number2);
+    Double add(Double number1, Double number2);
     }
 }
 
