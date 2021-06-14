@@ -8,7 +8,7 @@
 
 namespace winrt::TestComponent::implementation
 {
-    double Test::add(long int number1, double number2)
+    double Test::add(double number1, double number2)
     {
         return number1 + number1;
     }
